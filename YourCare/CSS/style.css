@@ -1,0 +1,411 @@
+/* Font -- Start */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;600;900&display=swap'
+);
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&display=swap'
+);
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+/* Font -- End */
+
+/* Font Family -- Start */
+.hx {
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+}
+
+.hy {
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+}
+
+.hz {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+/* Font Family -- End */
+
+/* Color and Background Color -- Start */
+
+.clr {
+    background-color: #EBEBEB;
+}
+
+.navclr {
+    color: #E63946 !important;
+    font-size: 22px;
+}
+
+.clr2 {
+    color: #E63946 !important;
+}
+
+.gray {
+    color: rgb(128, 128, 128) !important;
+}
+
+.bg-gray-black {
+    background-color: rgb(128, 128, 128) !important;
+}
+
+.bg-gray {
+    background-color: #DDDDDD;
+}
+
+.raquo-color {
+    color: #FFB563;
+}
+
+.bg-x {
+    background-color: #FFB563;
+}
+
+/* Color and Background Color -- End */
+
+/* FontSize -- Start */
+
+.size {
+    font-size: 64px;
+}
+
+.size2 {
+    font-size: 60px;
+}
+
+.size3 {
+    font-size: 30px;
+}
+
+.fnt-size {
+    font-size: 18px;
+}
+
+.fnt-size2 {
+    font-size: 32px;
+}
+
+/* FontSize -- End */
+
+.lorem-margin {
+    margin-top: 10% !important;
+}
+
+.radius {
+    border-radius: 30px 30px 30px 30px;
+}
+
+.wdth {
+    max-width: 90%;
+}
+
+.mtx {
+    margin-top: 17%;
+}
+
+.mtx2 {
+    margin-top: 9%;
+}
+
+.mtx3 {
+    margin-top: 11%;
+}
+
+.btn-x {
+    border-radius: 25px;
+}
+
+#jumbotrons-row {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.nurse {
+    width: 40%;
+    position: absolute;
+    left: 5%;
+    top: -30%;
+}
+
+.card {
+    max-width: 90%;
+}
+
+.card-img-top {
+    position: absolute;
+    width: 50%;
+    bottom: 79%;
+    left: 69%;
+}
+
+.card-img-top2 {
+    position: absolute;
+    width: 50%;
+    bottom: 75%;
+    left: 67%;
+}
+
+.margin-x {
+    margin-top: 8%;
+    padding-left: 15%;
+}
+
+.nav-link:hover {
+    color: #E63946 !important;
+    text-decoration: none;
+    border-bottom: #E63946 solid 1px !important;
+    padding-bottom: 1px;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 373px) {
+
+    .lorem-margin {
+        margin-top: -45%;
+    }
+
+    .mrgn {
+        margin-top: 2%;
+    }
+
+    .design {
+        position: absolute;
+        bottom: -500%;
+    }
+
+    .nurse {
+        position: absolute;
+        left: 32%;
+    }
+
+    .change2 {
+        position: absolute;
+        bottom: -565%;
+        max-width: 120%;
+        text-align: center;
+    }
+
+    .widthx {
+        margin-left: -5%;
+    }
+
+    .small-db {
+        margin-top: 11%;
+    }
+
+    .small-device {
+       width: 100%;
+    }
+
+    .margin-x {
+        margin-left: -5%;
+    }
+}
+
+
+
+/* Media Quaries */
+@media only screen and (min-width: 374px) and (max-width : 426px) {
+
+    .lorem-margin {
+        margin-top: -45%;
+    }
+
+    .mrgn {
+        margin-top: 2%;
+    }
+
+    .design {
+        position: absolute;
+        bottom: -315%;
+    }
+
+    .nurse {
+        position: absolute;
+        left: 32%;
+    }
+
+    .change2 {
+        position: absolute;
+        bottom: -425%;
+        max-width: 120%;
+        text-align: center;
+    }
+
+    .widthx {
+        margin-left: -5%;
+    }
+
+    .small-db {
+        margin-top: 11%;
+    }
+
+    .small-device {
+       width: 100%;
+    }
+
+    .margin-x {
+        margin-left: -5%;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width : 425px) {
+    .mrgn {
+        margin-top: 2%;
+    }
+
+    .design {
+        position: absolute;
+        bottom: -435%;
+    }
+
+    .nurse {
+        position: absolute;
+        left: 32%;
+    }
+
+    .change2 {
+        position: absolute;
+        bottom: -555%;
+        max-width: 100%;
+    }
+
+    .small-db {
+        margin-top: 11%;
+    }
+
+   
+    .margin-x {
+        margin-left: -5%;
+    }
+}
+
+
+@media only screen and (min-width: 426px) and (max-width : 767px) {
+    .mrgn {
+        margin-top: 2%;
+    }
+
+    .design {
+        position: absolute;
+        bottom: -315%;
+    }
+
+    .nurse {
+        position: absolute;
+        left: 32%;
+    }
+
+    .change2 {
+        position: absolute;
+        bottom: -425%;
+        max-width: 100%;
+    }
+
+    .small-db {
+        margin-top: 11%;
+    }
+
+    .small-device {
+        margin-left: -15%;
+    }
+
+    .margin-x {
+        margin-left: -5%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width : 998px) {
+    .mtx2 {
+        margin-top: 21%;
+    }
+
+    .table-row {
+        position: absolute;
+        left: 70%;
+    }
+
+    .nurse {
+        width: 47%;
+        position: absolute;
+        left: 5%;
+        top: -10%;
+    }
+
+    .design {
+        position: absolute;
+        bottom: -175%;
+    }
+
+    .change2 {
+        position: absolute;
+        bottom: -255%;
+    }
+
+    .small-device {
+        margin-left: -12%;
+        
+    }
+}
+
+@media only screen and (min-width: 998px) and (max-width : 1024px) {
+    .mtx2 {
+        margin-top: 15%;
+    }
+
+    .nurse {
+        width: 45%;
+        position: absolute;
+        left: 5%;
+        top: -10%;
+    }
+
+    .angel-x {
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width : 1250px) {
+    .mrgn {
+        margin-top: 22%;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width : 1440px) {
+    .lorem-x {
+        margin-top: 12%;
+    }
+
+    .lorem-y {
+        margin-top: -10%;
+    }
+
+    .mrgn {
+        margin-top: 20%;
+    }
+
+    .mtx2 {
+        margin-top: 15%;
+    }
+
+    .nurse {
+        width: 45%;
+        position: absolute;
+        left: 5%;
+        top: -30%;
+    }
+}
+
+@media only screen and (min-width: 1441px) and (max-width : 2561px) {
+    .lorem-x {
+        margin-top: 12%;
+    }
+
+    .lorem-y {
+        margin-top: -5%;
+    }
+}
+
+
+/* Media Quaries -- End */
